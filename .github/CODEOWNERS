@@ -1,32 +1,14 @@
-# Code Owners for this repository
-# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
-
-# Default owner for all files
+# Default owners for the entire repository
 * @stacknan17012026
 
-# Source code owners
-src/ @stacknan17012026
-src/app/ @stacknan17012026
-src/components/ @stacknan17012026
-src/lib/ @stacknan17012026
-src/hooks/ @stacknan17012026
-src/config/ @stacknan17012026
-src/types/ @stacknan17012026
-src/middleware/ @stacknan17012026
+# Documentation
+*.md @stacknan17012026
 
-# Configuration files
-next.config.ts @stacknan17012026
-tsconfig.json @stacknan17012026
-tailwind.config.ts @stacknan17012026
-eslint.config.mjs @stacknan17012026
-
-# Build and CI/CD
-.github/ @stacknan17012026
+# GitHub Actions workflows
 .github/workflows/ @stacknan17012026
 
-# Testing
-__tests__/ @stacknan17012026
-
-# Package management
-package.json @stacknan17012026
-package-lock.json @stacknan17012026
+# Configuration files
+*.json @stacknan17012026
+*.yml @stacknan17012026
+*.yaml @stacknan17012026
+*.config.* @stacknan17012026
